@@ -19,6 +19,15 @@
   <a href="">
     <img src="./assets/splatting_rendering.gif" alt="splatting" width="100%">
   </a>
+  <a href="">
+    <img src="./assets/o2_splatam_ours.gif" alt="o2_splatam_ours" width="100%">
+  </a>
+  <a href="">
+    <img src="./assets/o3_splatam_ours.gif" alt="o3_splatam_ours" width="100%">
+  </a>
+  <a href="">
+    <img src="./assets/r0_pointslam_ours.gif" alt="r0_pointslam_ours" width="100%">
+  </a>
 </p>
 
 # TODO
