@@ -1,0 +1,27 @@
+name: gs3lam
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - python=3.10
+  - pytorch=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - tqdm=4.65.0
+  - Pillow
+  - faiss-gpu
+  - opencv
+  - imageio
+  - matplotlib
+  - kornia
+  - natsort
+  - pyyaml
+  - pip
+  - pip:
+    - lpips
+    - open3d==0.16.0
+    - torchmetrics
+    - cyclonedds
+    - plyfile==0.8.1
