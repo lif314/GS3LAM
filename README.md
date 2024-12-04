@@ -61,6 +61,9 @@
       <a href="#acknowledgement">Acknowledgement</a>
     </li>
     <li>
+      <a href="#license">License</a>
+    </li>
+    <li>
       <a href="#citation">Citation</a>
     </li>
   </ol>
@@ -226,6 +229,9 @@ We thank the authors of the following repositories for their open-source code:
 - [vMAP](https://github.com/kxhit/vMAP)
 - [Point-SLAM](https://github.com/eriksandstroem/Point-SLAM)
 - [Gaussian Grouping](https://github.com/lkeab/gaussian-grouping)
+
+## License
+As our work heavily relies on [SplaTAM]((https://github.com/spla-tam)), we kindly ask that you adhere to the guidelines set forth in SplaTAM's [LICENSE](https://github.com/spla-tam/SplaTAM/blob/main/LICENSE).
 
 ## Citation
 
