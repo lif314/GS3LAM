@@ -9,7 +9,7 @@ basedir = "./data/Replica"
 first_frame_mapping_iters = 1000
 tracking_iters = 40
 mapping_iters = 60
-opt_rskm_interval = 10
+opt_rskm_interval = 5
 densify_thres=0.1 # For adding new Gaussians
 end_frame = -1
 

@@ -14,7 +14,7 @@ basedir = "./data/scannet"
 first_frame_mapping_iters = 1000
 tracking_iters = 200
 mapping_iters = 60
-opt_rskm_interval = 10
+opt_rskm_interval = 5
 densify_thres = 0.5 # For Addition of new Gaussians
 end_frame = -1
 

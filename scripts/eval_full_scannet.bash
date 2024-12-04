@@ -1,4 +1,5 @@
 #!/bin/bash
+export CUDA_VISIBLE_DEVICES=0
 
 for scene_num in 0 1 2 3 4 5
 do

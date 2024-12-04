@@ -179,8 +179,44 @@ bash scripts/eval_full_scannet.bash
 
 ## Visualizer
 
+### Online/Offline Reconstruction and Export Mesh
+
+<!-- 首先，定义配置文件中的``SEED``和SCENE_NUM环境变量 -->
+- Define the ``SEED`` and ``SCENE_NUM`` environment variables in the configuration file.
+```bash
+# ``SEED`` is the random seed used during training, which should be consistent with the configuration.
+export SEED=1
+
+# ``SCENE_NUM`` is the index of the data sequence in the following list.
+# Replica: ["room0", "room1", "room2","office0", "office1", "office2", "office3", "office4"]
+# Scannet: ["scene0059_00", "scene0106_00", "scene0169_00", "scene0181_00", "scene0207_00", "scene0000_00"]
+export SCENE_NUM=0
 ```
-TBD
+
+- Online reconstruction.
+```bash
+# optional mode: [color, depth, centers, sem, sem_color, sem_feature]
+python visualizer/online_recon.py --mode color --logdir path/to/the/log
+```
+
+- Offline reconstruction.
+```bash
+# optional mode: [color, depth, centers, sem, sem_color, sem_feature]
+python visualizer/offline_recon.py --mode sem_color --logdir path/to/the/log
+```
+
+- Export Mesh
+```bash
+# optional mode: [color, sem]
+python visualizer/export_mesh.py --mode color --logdir path/to/the/log
+```
+
+### Plot Optimization Bias
+
+To draw ``Fig. 2`` in the paper, which can demonstrate the relationship between optimization iterations, rendering quality and camera trajectories.
+
+```bash
+python visualizer/plot_opt_bias.py --logdir path/to/the/log
 ```
 
 ## Acknowledgement
