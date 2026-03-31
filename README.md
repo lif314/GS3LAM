@@ -14,8 +14,9 @@
   <a href="https://scholar.google.com/citations?user=A0N_mS0AAAAJ&hl=en"><strong>Ying Shen</strong></a>
 </p>
 
-  <h3 align="center"><a href="https://github.com/lif314/GS3LAM">🌐Project page (comming soon)</a> 
+  <h3 align="center"><a href="https://lif314.github.io/projects/gs3lam/">🌐Project page</a> 
   | <a href="https://dl.acm.org/doi/10.1145/3664647.3680739">📝Paper(ACM DL)</a>
+  | <a href=" https://arxiv.org/abs/2603.27781">📝Paper(arXiv)</a>
   </h3>
   <div align="center"></div>
 </p>
