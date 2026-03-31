@@ -15,8 +15,7 @@
 </p>
 
   <h3 align="center"><a href="https://lif314.github.io/projects/gs3lam/">🌐Project page</a> 
-  | <a href="https://dl.acm.org/doi/10.1145/3664647.3680739">📝Paper(ACM DL)</a>
-  | <a href=" https://arxiv.org/abs/2603.27781">📝Paper(arXiv)</a>
+  | <a href="https://dl.acm.org/doi/10.1145/3664647.3680739">📝Paper(ACM DL)</a> | <a href="https://arxiv.org/abs/2603.27781">📝Paper(arXiv)</a>
   </h3>
   <div align="center"></div>
 </p>
